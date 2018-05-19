@@ -1,3 +1,6 @@
+---
+published: false
+---
 
 # Project 2: The Ames Housing Data and House Price Prediction
 ## By Evan Jacobs, data genius
