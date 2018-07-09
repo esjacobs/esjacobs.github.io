@@ -10,8 +10,6 @@ Hi and welcome to my blog. This is my first real entry, and it basically entails
 
 First we start off by importing anything and everything that might be helpful here.
 
-First we start off by importing anything and everything that might be helpful here.
-
 
 ```python
 import numpy as np
