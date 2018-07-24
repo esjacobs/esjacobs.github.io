@@ -1,9 +1,17 @@
+---
+layout: post
+title: Capstone: The Movie
+date: 2017-07-24
+published: true
+categories: projects
+tags:
+---
 
 # CAPSTONE: THE MOVIE
 
 ## By Evan Jacobs
 
-Below are two presentations in one. One is technical, the other is non technical. Please note that every headline and slide title, with the exception of one or two, is a quote from a movie.
+This and the preceeding three blog posts are the capstone project I did for General Assembly. You can find the GitHub [repository](https://github.com/esjacobs/Predicting-Metacritic-Scores) here. Below are two presentations in one. One is technical, the other is non technical. Please note that every headline and slide title, with the exception of one or two, is a quote from a movie.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQk0fMzdBGgnYFHsuQFAkUNdcB7ws7BYQBX34QOM4P6KbctCd3pkjaoUUWDuU-ENRoFOGEeRNt1F71a/embed?start=true&loop=true&delayms=5000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
