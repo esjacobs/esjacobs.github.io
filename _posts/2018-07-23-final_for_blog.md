@@ -8,9 +8,11 @@ tags:
 ---
 Here is the first project given to us at the General Assembly data science immersion program. We were given two databases of 2017 SAT and ACT average scores by state. We were given detailed tasks involving cleaning and exploring the data, and then told to make presentations to the College Board to suggest ways of increasing participation. Here is the presentation I made with my suggestions, followed by the notebook I used.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVDp-ccEE5h_Tc21rCYAETyhq23CQ_zeRwmJ4zasy4HGsBWL7xhxfUDsmJbKE46aMIrYcjmVqb0QE3/embed?start=false&loop=true&delayms=5000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVDp-ccEE5h_Tc21rCYAETyhq23CQ_zeRwmJ4zasy4HGsBWL7xhxfUDsmJbKE46aMIrYcjmVqb0QE3/embed?start=false&loop=true&delayms=5000" frameborder="0" width="750" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-This blog will be mostly a detailed desciption of my code along with my resulting presentation at the end. However, I have taken the liberty of deleting many cells that didn't really end up contributing to the final presentation as well as for the sake of readibility. Please keep in my that I was able to do this work after just two weeks of instruction.  
+This blog will be mostly a detailed desciption of my code along with my resulting presentation at the end. However, I have taken the liberty of deleting many cells that didn't really end up contributing to the final presentation as well as for the sake of readibility. 
+
+Please keep in my that I was able to do this work after just two weeks of instruction.  
 
 Loading in the file:
 
