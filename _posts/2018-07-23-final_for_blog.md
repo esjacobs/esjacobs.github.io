@@ -1281,4 +1281,3 @@ print('The 95% confidence interval for the SAT participation is {}, which means 
 
 
 That's it for the notebook. If you haven't, please look at the accompanying presentation to see my hypothetical recommendations to The College Board and check out the GitHub [repository](https://github.com/esjacobs/SAT_and_ACT).
-. 
