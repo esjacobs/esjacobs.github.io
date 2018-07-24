@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: A Hypothetical Presentation to The College Board to Increase SAT Participation Rates
