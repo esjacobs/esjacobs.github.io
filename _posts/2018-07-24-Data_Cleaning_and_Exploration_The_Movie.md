@@ -1,6 +1,11 @@
-
-# Data Cleaning and Exploration: The Movie
-
+---
+layout: post
+title: Data Cleaning and Exploration: The Movie
+date: 2017-07-24
+published: true
+categories: projects
+tags:
+---
 (Go to the READ.ME of this repository for the entire write-up.)
 
 We collected quite a bit of data: 43837 separate movies. The actual cleaning of the data was as tedious and dry as the following paragraphs.
