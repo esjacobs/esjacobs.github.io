@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Cleaning and Exploration: The Movie
+title: Data Cleaning and Exploration, The Movie
 date: 2017-07-24
 published: true
 categories: projects
