@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Capstone: The Movie
+title: Capstone, The Movie
 date: 2017-07-24
 published: true
 categories: projects
 tags:
 ---
-
 # CAPSTONE: THE MOVIE
 
 ## By Evan Jacobs
