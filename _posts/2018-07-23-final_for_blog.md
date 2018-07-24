@@ -1279,4 +1279,5 @@ print('The 95% confidence interval for the SAT participation is {}, which means 
     The 95% confidence interval for the SAT participation is (-0.29337007176461544, 1.0894485031371646), which means that, out of 100 trials, 95 of them will fall between the bounds of this interval. Note that the lower bound of this interval is less than zero. Thus, we can assume that the true interval is (0.)
 
 
-That's it for the notebook. If you haven't, please look at the accompanying presentation to see my hypothetical recommendations to The College Board. 
+That's it for the notebook. If you haven't, please look at the accompanying presentation to see my hypothetical recommendations to The College Board and check out the GitHub [repository](https://github.com/esjacobs/SAT_and_ACT).
+. 
