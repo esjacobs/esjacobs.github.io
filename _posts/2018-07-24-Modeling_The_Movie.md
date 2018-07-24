@@ -1,5 +1,11 @@
-
-# Modeling: The Movie
+---
+layout: post
+title: Modeling: The Movie
+date: 2017-07-24
+published: true
+categories: projects
+tags:
+---
 
 (Go to the READ.ME of this repository for the entire write-up.)
 
