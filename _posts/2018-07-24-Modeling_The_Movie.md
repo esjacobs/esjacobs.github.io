@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modeling: The Movie
+title: Modeling, The Movie
 date: 2017-07-24
 published: true
 categories: projects
