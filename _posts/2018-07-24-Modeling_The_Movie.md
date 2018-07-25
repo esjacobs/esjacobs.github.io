@@ -9,7 +9,7 @@ tags:
 
 (Go to the READ.ME of this [repository](https://github.com/esjacobs/Predicting-Metacritic-Scores) for the entire write-up.)
 
-For modeling, we took the practice of throwing everything at the wall and seeing what worked. We imported many different models, including linear regression, lasso, SGD regressor, bagging regressor, random forrest regressor, SVR, and adaboost regressor, as well as classifiers including logistic regression, random forest classifier, adaboost classifier, k-nearest neighbors classifier, decision tree classifier, and even a neural network. 
+For modeling, I took the practice of throwing everything at the wall and seeing what worked. I imported many different models, including linear regression, lasso, SGD regressor, bagging regressor, random forrest regressor, SVR, and adaboost regressor, as well as classifiers including logistic regression, random forest classifier, adaboost classifier, k-nearest neighbors classifier, decision tree classifier, and even a neural network. 
 
 
 ```python
@@ -41,7 +41,7 @@ import seaborn as sns
 %matplotlib inline
 ```
 
-We brought in our six dataframes:
+I brought in my six DataFrames:
 1. 1 df 2 = directors and actors weighted, , deleted columns with 1 or fewer terms
 2. 2 df 2 = directors and actors weighted, deleted columns with 1 or fewer terms
 3. 3 df 2 = directors and actors and writers weighted, deleted columns with 1 or fewer terms
@@ -51,7 +51,7 @@ We brought in our six dataframes:
 
 
 ```python
-# Pre-made dataframes with directors weighted
+# Pre-made DataFrames with directors weighted
 
 # X_train = pd.read_csv('train_everything_director_weights_df2.csv') # 1
 # X_test = pd.read_csv('test_everything_director_weights_df2.csv') # 1
@@ -67,7 +67,7 @@ X_test = pd.read_csv('test_everything_director_actor_writer_weights_df2.csv') # 
 # X_test = pd.read_csv('test_everything_director_actor_writer_weights_df3.csv') # 6
 ```
 
-We then fed the dataframes through the following cell, which gave us three regressor scores, then transformed our y variable for classification (based on median Metacritic score) and fed that through three classifiers. Throughout this process many models were attempted and thrown out. Dataframes were changed and had to be saved again and reloaded. At the end of the day we decided on the following models:
+I then fed the DataFrames through the following cell, which gave me three regressor scores, then transformed my y variable for classification (based on median Metacritic score) and fed that through three classifiers. Throughout this process many models were attempted and thrown out. DataFrames were changed and had to be saved again and reloaded. At the end of the day I decided on the following models:
 
 - Regression
     - Bagging Regressor
@@ -78,7 +78,7 @@ We then fed the dataframes through the following cell, which gave us three regre
     - Bagging Classifier
     - Random Forest Classifier
     
-Except for LASSO and logistic regression, there wasn't much rhyme or reason for modeling choices. These just gave us the best relative scores (of the ones we tried), and also didn't take a huge amount of time. Also, the bagging regressor and classifier, which didn't seem to ever give us scores that were as good as the other models, still worked quickly and served as a veritable canary in a coal mine, warning us if something had gone wrong with the models. 
+Except for LASSO and logistic regression, there wasn't much rhyme or reason for modeling choices. These just gave me the best relative scores (of the ones I tried), and also didn't take a huge amount of time. Also, the bagging regressor and classifier, which didn't seem to ever give me scores that were as good as the other models, still worked quickly and served as a veritable canary in a coal mine, warning me if something had gone wrong with the models. 
 
 
 ```python
@@ -340,7 +340,7 @@ sns.heatmap(cap_mods_class, annot = True, cmap = "Blues")
 # plt.tick_params(color='white', labelcolor='white');
 ```
 
-After analyzing the output from our models, we decided to use the 3 df 2 dataframe, aka, # 3, to tune hyperparameters on. Similarly, we tuned classifers on random forest, logreg, and LASSO, omitting the others for time. Frankly, the differences between performance is largely negligible, but we had might as well take the .02 bump provided by our best models. 
+After analyzing the output from my models, I decided to use the 3 df 2 DataFrame, aka, # 3, to tune hyperparameters on. Similarly, I tuned classifers on random forest, logreg, and LASSO, omitting the others for time. Frankly, the differences between performance is largely negligible, but I had might as well take the .02 bump provided by my best models. 
 
 
 ```python
@@ -352,19 +352,19 @@ cap_mods
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
+    .DataFrame tbody tr th:only-of-type {
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
+    .DataFrame tbody tr th {
         vertical-align: top;
     }
 
-    .dataframe thead th {
+    .DataFrame thead th {
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="DataFrame">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -674,7 +674,7 @@ print(gs.best_params_)
         return [func(*args, **kwargs) for func, args, kwargs in self.items]
       File "/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 448, in _fit_and_score
         X_train, y_train = _safe_split(estimator, X, y, train)
-      File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/metaestimators.py", line 200, in _safe_split
+      File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/Metaestimators.py", line 200, in _safe_split
         X_subset = safe_indexing(X, indices)
       File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/__init__.py", line 160, in safe_indexing
         return X.take(indices, axis=0)
@@ -735,7 +735,7 @@ print(gs.best_params_)
         return [func(*args, **kwargs) for func, args, kwargs in self.items]
       File "/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 448, in _fit_and_score
         X_train, y_train = _safe_split(estimator, X, y, train)
-      File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/metaestimators.py", line 200, in _safe_split
+      File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/Metaestimators.py", line 200, in _safe_split
         X_subset = safe_indexing(X, indices)
       File "/anaconda3/lib/python3.6/site-packages/sklearn/utils/__init__.py", line 160, in safe_indexing
         return X.take(indices, axis=0)
@@ -856,7 +856,7 @@ print(gs.best_params_)
         449     X_test, y_test = _safe_split(estimator, X, y, test, train)
 
 
-    /anaconda3/lib/python3.6/site-packages/sklearn/utils/metaestimators.py in _safe_split(estimator, X, y, indices, train_indices)
+    /anaconda3/lib/python3.6/site-packages/sklearn/utils/Metaestimators.py in _safe_split(estimator, X, y, indices, train_indices)
         199     else:
     --> 200         X_subset = safe_indexing(X, indices)
         201 
@@ -937,30 +937,30 @@ print(gs.best_params_)
     TypeError: must be str, not list
 
 
-Our best classifier (logreg) accuracy was 
+My best classifier (logreg) accuracy was 
 
 0.6945555555555556 
 
 using C = 10 with an l1 penalty. 
 
-And our best regression R$^2$ score was 
+And my best regression R$^2$ score was 
 
 0.21460320119560503
 
 with an $\alpha$ = .15
 
-There is no reason we shouldn't be able to achieve better than this given more time in the future. 
+There is no reason I shouldn't be able to achieve better than this given more time in the future. 
 
 Future recommendations are numerous. There are many different ways possible to make this score better, the only constraint being time. 
 
-In terms of data collection, there are several other large databases to access, including imdb's itself as well as Metacritic's. It is entirely possible we have all the Metacritic scores, but we could always use more. Plus, Metacritic has statistics such as whether the movie is part of a franchise and how well the previous film did. We can, of course, make that data ourselves, but again, time is a factor here.
+In terms of data collection, there are several other large databases to access, including imdb's itself as well as Metacritic's. It is entirely possible I have all the Metacritic scores, but I could always use more. Plus, Metacritic has statistics such as whether the movie is part of a franchise and how Ill the previous film did. I can, of course, make that data myself, but again, time is a factor here.
 
-We would also like access to more of the cast and crew including producers, cinematographers, composers, editors, and more of the cast. After all, the theory underlying this entire endeavous is that people make movies and people are consistent in their product. 
+I would also like access to more of the cast and crew including producers, cinematographers, composers, editors, and more of the cast. After all, the theory underlying this entire endeavor is that people make movies and people are consistent in their product. 
 
-We could impute null values, especially with things like box office revenue, opening weekend box office revenue, Rotten Tomatoes scores, which could all replace Metacritic scores as the target variable. It would then be a simple mapping from one to the other. There could easily be more Rotten Tomatoes scores than Metacritic.
+I could impute null values, especially with things like box office revenue, opening weekend box office revenue, Rotten Tomatoes scores, which could all replace Metacritic scores as the target variable. It would then be a simple mapping from one to the other. There could easily be more Rotten Tomatoes scores than Metacritic.
 
-In terms of feature engineering, there are always more columns to make. We could use polynomial features on our numerical data. We could just use directors and writers. We could run more n-grams on the titles. We could change our min_dfs per column. We could sift down out list of actor weights. We could go back and try to get the actors averages like before. 
+In terms of feature engineering, there are always more columns to make. I could use polynomial features on my numerical data. I could just use directors and writers. I could run more n-grams on the titles. I could change my min_dfs per column. I could sift down out list of actor weights. I could go back and try to get the actors averages like before. 
 
-Finally, there are more models for us to use. Several will allow us to tune hyperarameters to eek out better scores. There are models that work better with NLP. We can try a neural network for both classification and regression. With can try a passive aggressive classifer. And we'll do all that and we'll predict movie scores and eventually they'll make a movie about us. 
+Finally, there are more models for me to use. Several will allow me to tune hyperarameters to eek out better scores. There are models that work better with NLP. I can try a neural network for both classification and regression. With can try a passive aggressive classifer. And I'll do all that and I'll predict movie scores and eventually they'll make a movie about me. 
 
 And that's my capstone! Wasn't it great? 
