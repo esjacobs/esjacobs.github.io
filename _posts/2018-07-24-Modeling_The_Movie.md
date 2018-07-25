@@ -7,7 +7,7 @@ categories: projects
 tags:
 ---
 
-(Go to the READ.ME of this repository for the entire write-up.)
+(Go to the READ.ME of this [repository](https://github.com/esjacobs/Predicting-Metacritic-Scores) for the entire write-up.)
 
 For modeling, we took the practice of throwing everything at the wall and seeing what worked. We imported many different models, including linear regression, lasso, SGD regressor, bagging regressor, random forrest regressor, SVR, and adaboost regressor, as well as classifiers including logistic regression, random forest classifier, adaboost classifier, k-nearest neighbors classifier, decision tree classifier, and even a neural network. 
 
