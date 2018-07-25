@@ -4,7 +4,7 @@ title: A Hypothetical Presentation to The College Board to Increase SAT Particip
 date: 2017-07-23
 published: true
 categories: projects
-tags:
+tags:a
 ---
 Here is the first project given to us at the General Assembly data science immersion program. We were given two databases of 2017 SAT and ACT average scores by state. We were given detailed tasks involving cleaning and exploring the data, and then told to make presentations to the College Board to suggest ways of increasing participation. Here is the presentation I made with my suggestions, followed by the notebook I used.
 
