@@ -13,6 +13,8 @@ The first step in my capstone project to collect a large database of films was t
 
 ```python
 import wikipedia
+import warnings
+warnings.simplefilter("ignore")
 import re
 import pandas as pd
 import numpy as np
