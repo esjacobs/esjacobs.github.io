@@ -559,7 +559,7 @@ I pulled out my list of actors by using a count vectorizer on my features to get
 
 ## ASIDE: The Average Actor Debacle
 
-Originally, I tried to also replace the Actors column with an aggregate score for each member of the series of lists. For instance, if four people were listed in a movie, we'd take the average of their Metascores (their own average Metascore) and average that. Some actors wouldn't have values or some movies might have no actors listed, so if I ran into those problems, I would just use an np.nan (Later, I would change this to a 666.666 to easily remove). Then I wouldn't necessarily have to count vectorizer the Actors column. At first this seemed to have worked. It gave me better models (though only when I still count vectorized the Actors column). But this may have been a fluke. I noticed some of the data was strange looking. So I tried to reproduce the problem with my morta df. 
+Originally, I tried to also replace the Actors column with an aggregate score for each member of the series of lists. For instance, if four people were listed in a movie, I'd take the average of their Metascores (their own average Metascore) and average that. Some actors wouldn't have values or some movies might have no actors listed, so if I ran into those problems, I would just use an np.nan (Later, I would change this to a 666.666 to easily remove). Then I wouldn't necessarily have to count vectorizer the Actors column. At first this seemed to have worked. It gave me better models (though only when I still count vectorized the Actors column). But this may have been a fluke. I noticed some of the data was strange looking. So I tried to reproduce the problem with my morta df. 
 
 
 ```python
