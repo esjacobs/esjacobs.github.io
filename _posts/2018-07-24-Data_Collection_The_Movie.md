@@ -6,7 +6,7 @@ published: true
 categories: projects
 tags:
 ---
-(Go to the READ.ME of this repository for the entire write-up.)
+(Go to the READ.ME of this [repository](https://github.com/esjacobs/Predicting-Metacritic-Scores) for the entire write-up.)
 
 The first step in my capstone project to collect a large database of films was to first try and get a list of every movie I could. I figured that Wikipedia would have as many movies as I would need, and if a movie wasn't on wikipedia, it was also unlikely to be one that provided me with any useful information in regards to Metascore. So, I used a Wikipedia Python package. 
 
