@@ -113,11 +113,11 @@ There is no reason we shouldn't be able to achieve better than this given more t
 
 Future recommendations are numerous. There are many different ways possible to make this score better, the only constraint being time.
 
-In terms of data collection, there are several other large databases to access, including imdb's itself as well as Metacritic's. It is entirely possible we have all the metacritic scores, but we could always use more. Plus, Metacritic has statistics such as whether the movie is part of a franchise and how well the previous film did. We can, of course, make that data ourselves, but again, time is a factor here.
+In terms of data collection, there are several other large databases to access, including imdb's itself as well as Metacritic's. It is entirely possible we have all the Metacritic scores, but we could always use more. Plus, Metacritic has statistics such as whether the movie is part of a franchise and how well the previous film did. We can, of course, make that data ourselves, but again, time is a factor here.
 
 We would also like access to more of the cast and crew including producers, cinematographers, composers, editors, and more of the cast. After all, the theory underlying this entire endeavor is that people make movies and people are consistent in their product.
 
-Finally, we could impute null values, especially with things like box office revenue, opening weekend box office revenue, Rotten Tomatoes scores, which could all replace Metacritic scores as the target variable. It would then be a simple mapping from one to the other. There could easily be more Rotten Tomatoes scores than Metacritic.
+We could impute null values, especially with things like box office revenue, opening weekend box office revenue, Rotten Tomatoes scores, which could all replace Metacritic scores as the target variable. It would then be a simple mapping from one to the other. There could easily be more Rotten Tomatoes scores than Metacritic.
 
 In terms of feature engineering, there are always more columns to make. We could use polynomial features on our numerical data. We could just use directors and writers. We could run more n-grams on the titles. We could change our min_dfs per column. We could sift down out list of actor weights. We could go back and try to get the actors averages like before.
 
