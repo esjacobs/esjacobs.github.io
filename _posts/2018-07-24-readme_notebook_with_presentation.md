@@ -62,7 +62,7 @@ Finally, I used a website that collects data from Metacritic, Rotten Tomatoes, I
 
 I didn't take "Awards," "DVD," "Plot," or "imdbVotes," because all of those attributes are things you will never have access to before a movie comes out. I kept the rating values to use as my target variable.
 
-I also didn't tape "Country," "Language," "Poster," "Response," "Type," or "Website," because none of these things gave any valuable information. Perhaps country or language would be somewhat illuminating, and I may take them at a future date.
+I also didn't take "Country," "Language," "Poster," "Response," "Type," or "Website," because none of these things gave any valuable information. Perhaps country or language would be somewhat illuminating, and I may take them at a future date.
 
 My main issues with this API were that it restricted actors to the top four billed, had no other crew (Cinematographer? Hello? Composer?) and also didn't have things like opening weekend box office, budget, months in production, whether the movie is part of a franchise, etc. There are other databases with this type of information and I plan to access those in the future.
 
