@@ -1,6 +1,11 @@
-
-# Ames Housing Data and House Price Prediction
-
+---
+layout: post
+title: Ames Housing Data and House Price Prediction
+date: 2017-05-19
+published: true
+categories: projects
+tags:
+---
 Hi and welcome to my blog. This is my first real entry, and it basically entails a project I did in my data science bootcamp at General Assembly. This particular post will be heavy in the coding department and light in the writing department, but will give you a little glimpse into how I was thinking early on in the program. So, without further ado…
 
 First we start off by importing anything and everything that might be helpful here.
@@ -1810,7 +1815,7 @@ print("score: ", score.mean())
     score:  0.8773479828283166
 
 
-And that's it for the first model! Don't forget to look at the other two model files by checking out the GitHub [repository](https://github.com/esjacobs/Predicting-Ames-Housing-Prices). I've included the data dictionary below. 
+And that's it for the first model! Don't forget to look at the other two model files by checking out the GitHub [repository](https://github.com/esjacobs/Predicting-Ames-Housing-Prices). I've included the data dictionary below, and finally, the presentation I made at the very end. 
 
 
 ```python
@@ -2223,3 +2228,6 @@ And that's it for the first model! Don't forget to look at the other two model f
 #     Oth Other
 
 ```
+Finally, here's my presentation. I put this at the end because I delivered this with an eye for light-heartedness and comedy, as I was presenting it just to my fellow students. I was originally going to change it for the blog to make it more professional, but I enjoyed too much of the jokes I had written, and it's somewhat indicative of my personality. However, as you can see from my other projects, I am quite capable of giving a fully professional presentation. Anyway, enjoy!
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSsUnJfU2MvvDfsw_T8m_9wq04SlqggrlXwB2dMSaQCtbaoKHFfAJRPYOac2yPcSJdhB6roK_UNL3zT/embed?start=true&loop=true&delayms=5000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
