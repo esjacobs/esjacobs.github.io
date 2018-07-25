@@ -25,6 +25,8 @@ len(df)
 
 ```python
 import imdb
+import warnings
+warnings.simplefilter("ignore")
 import re
 import pandas as pd
 import numpy as np
