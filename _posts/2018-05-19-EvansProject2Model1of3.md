@@ -1,10 +1,5 @@
 ---
-layout: post
-title: Ames Housing Data and House Price Prediction
-date: 2017-05-19
-published: true
-categories: projects
-tags:
+published: false
 ---
 Hi and welcome to my blog. This is my first real entry, and it basically entails a project I did in my data science bootcamp at General Assembly. This particular post will be heavy in the coding department and light in the writing department, but will give you a little glimpse into how I was thinking early on in the program. So, without further ado...
 
