@@ -138,7 +138,7 @@ Finally, I used a website that collects data from Metacritic, Rotten Tomatoes, I
 
 I didn't take "Awards," "DVD," "Plot," or "imdbVotes," because all of those attributes are things you will never have access to before a movies comes out. I kept the rating values to use as my target variable. 
 
-I also didn't tape "Country," "Language," "Poster," "Reponse," "Type," or "Website," because none of these things gave any valuable information. Perhaps country or language would be somewhat illuminating, and I may take them at a future date.
+I also didn't take "Country," "Language," "Poster," "Reponse," "Type," or "Website," because none of these things gave any valuable information. Perhaps country or language would be somewhat illuminating, and I may take them at a future date.
 
 My main issues with this API were that it restricted actors to the top four billed, had no other crew (Cinematographer? Hello? Composer?) and also didn't have things like opening weekend box office, budget, months in production, whether the movie is part of a franchise, etc. There are other databases with this type of information and I plan to access those in the future. 
 
@@ -200,11 +200,11 @@ additional = pd.read_csv('cleaned_movie_df.csv')
 
 ```python
 additional = pd.read_csv('cleaned_movie_df.csv')
-meta_award_add = []
+Meta_award_add = []
 index=0
 for imdbid in additional.imdbID:
     if index % 1000 == 0:
-        pd.DataFrame(meta_award_add).to_csv(f'meta_award_add{index}.csv')
+        pd.DataFrame(Meta_award_add).to_csv(f'Meta_award_add{index}.csv')
     try: 
         temp_dict = {}
         murl = (f'http://www.omdbapi.com/?apikey=eac947e0&i={imdbid}&r=json')   
@@ -212,10 +212,10 @@ for imdbid in additional.imdbID:
         res_json = res.json()
         temp_dict['imdbID'] = imdbid
         temp_dict['Awards'] = res_json['Awards']
-        meta_award_add.append(temp_dict)
+        Meta_award_add.append(temp_dict)
         index+=1
     except:
         index+=1
         pass
-pd.DataFrame(meta_award_add).to_csv('meta_award_add_final.csv')
+pd.DataFrame(Meta_award_add).to_csv('Meta_award_add_final.csv')
 ```
