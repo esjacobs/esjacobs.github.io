@@ -1,11 +1,12 @@
 ---
 layout: post
-title: A Hypothetical Presentation to The College Board to Increase SAT Participation Rates
+title: A Hypothetical Presentation to Increase SAT Participation Rates
 date: 2017-07-23
 published: true
 categories: projects
-tags:a
+tags:
 ---
+
 Here is the first project given to us at the General Assembly data science immersion program. We were given two databases of 2017 SAT and ACT average scores by state. We were given detailed tasks involving cleaning and exploring the data, and then told to make presentations to the College Board to suggest ways of increasing participation. Here is the presentation I made with my suggestions, followed by the notebook I used.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVDp-ccEE5h_Tc21rCYAETyhq23CQ_zeRwmJ4zasy4HGsBWL7xhxfUDsmJbKE46aMIrYcjmVqb0QE3/embed?start=true&loop=true&delayms=5000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
